@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 3
 ---
 
 import Figure from '/src/components/figure'
@@ -24,7 +24,7 @@ A pop-up window will appear. On the left side of the pop-up, select "Astar," and
 
 <Figure src={require('/docs/build/EVM/chainide-for-astar-evm/img/chainIDE3.png').default} width="100%" />
 
-### 2. Configure Wallet
+### 2. Choose a Wallet
 
 Astar IDE provides support for two smart contract environments: EVM and WASM. EVM is compatible with the Metamask wallet, while WASM supports four wallets: Polkadot Wallet, Sub Wallet, Math Wallet, and Talisman Wallet.
 
@@ -33,6 +33,8 @@ Astar IDE provides support for two smart contract environments: EVM and WASM. EV
 ##### 2.1.1 Metamask (Recommended)
 
 > https://metamask.io/
+
+Learn how to setup Metamask with an Astar RPC Endpoint [here](../first-contract/metamask.md)
 
 #### 2.2 Wallets Supporting WASM
 

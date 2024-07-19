@@ -2,9 +2,61 @@
 sidebar_position: 3
 ---
 
+import Figure from '/src/components/figure'
+
 # Configure MetaMask
 
-## Add Network to MetaMask
+## Add Astar kEVM or zKyoto to Metamask
+
+#### Metamask Network Configuration
+
+While using Metamask, a user can connect their wallet to a node gateway offered from Astar Studio with either: `astar-zkevm` or the testnet `astar-zkyoto`
+
+##### 1. Open Wallet
+
+<Figure src={require('/docs/build/EVM/first-contract/img/configure_wallet/wallet_open_networks.png').default} width="50%" />
+
+##### 2. Select Networks
+
+<Figure src={require('/docs/build/EVM/first-contract/img/configure_wallet/add_network_manually.png').default} width="50%" />
+
+##### 3. Select Add Network
+
+<Figure src={require('/docs/build/EVM/first-contract/img/configure_wallet/add_network.png').default} width="50%" />
+
+##### 4. Add Network Manually
+
+<Figure src={require('/docs/build/EVM/first-contract/img/configure_wallet/add_network_manually.png').default} width="50%" />
+
+##### 5. Input Chain Details
+
+<Figure src={require('/docs/build/EVM/first-contract/img/configure_wallet/save_network.png').default} width="50%" />
+
+###### Astar zKyoto Testnet
+
+| Properties                    | Network Details                |
+| ----------------------------- | ------------------------------ |
+| Network Name                  | Astar zKyoto Testnet |
+| New RPC URL                   | `https://nodes.sequence.app/astar-zkyoto/<insert_astar_studio_project_access_key>`          |
+| Chain ID                      | 6038361                           |
+| Currency Symbol               | ASTR                           |
+| Block Explorer URL (Optional) | https://zkyoto.explorer.startale.com/                               |
+
+###### Astar Zkevm Network
+
+| Properties                    | Network Details                |
+| ----------------------------- | ------------------------------ |
+| Network Name                  | Astar zkEVM |
+| New RPC URL                   | `https://nodes.sequence.app/astar-zkevm/<astar_studio_project_access_key>`          |
+| Chain ID                      | 3776                           |
+| Currency Symbol               | ASTR                           |
+| Block Explorer URL (Optional) | https://astar.blockscout.com/                               |
+
+:::info
+You can acquire a project access key [here](../../astar-studio/quickstart.md#5-claim-an-api-access-key)
+:::
+
+## Add Local Network to MetaMask
 
  >**_NOTE:_** Before  following the instructions below ensure you run a local node on your machine. Follow the instructions [here](https://docs.astar.network/docs/build/environment/local-network/#run-the-local-network).
 

@@ -24,6 +24,6 @@ After a few seconds, you will see that the contract has been successfully deploy
 
 The last step will be to deploy a smart contract on Shiden, again using the same process as the local and Shibuya network deployments. Do note, though, that there is no faucet for Shiden due to SDN token having real economic value, so the easiest way to obtain SDN tokens is to purchase them from crypto exchanges.
 
-## Next Step
+## Next Steps
 
 Congratulations! You are now a dApp developer on Astar/Shiden network 😎 To better make use of and expand on your new skills as a smart contract developer, we recommend diving further into our official documentation and builders guides, and joining our Discord to share ideas with other developers, or to receive technical support.
