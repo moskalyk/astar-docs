@@ -59,11 +59,11 @@ While you can change the `name` later in the studio interface where it will upda
 
 Deploy your contract from the popup window and sign the message by selecting `confirm`
 
-<img src="img/deploy_with_astar_studio/sign_deploy_transaction.png" width="200" alt="Deploy your contract by signing the message in the popup window from your Wallet"/>
+![Deploy your contract by signing the message in the popup window from your Wallet](img/deploy_with_astar_studio/sign_deploy_transaction.png)
 
 :::info
 
-The astar-zkyoto is free to transact on.
+Astar-zkyoto testnet is free to transact on.
 
 :::
 

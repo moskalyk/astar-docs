@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Contracts
+# Deployable Contracts
 
 Astar Studio simplifies smart contract deployment and management with a suite of user-friendly features. Import, deploy, and add contract collaborators to a smart contract in the contracts dashboard and interact directly with your contract.
 
@@ -14,7 +14,7 @@ Deployment of contracts with Astar Studio is simplified through a streamlined pr
 
 Astar Studio provides a comprehensive contract dashboard, allowing users to explore and monitor various smart contract activities like transactions, balance, and tokens. Performing read and executing write operations on contracts becomes effortless, making it easy for actions such as minting and collaborations.
 
-import DocCardList from '@theme/DocCardList';
-import {useCurrentSidebarCategory} from '@docusaurus/theme-common';
-
-<DocCardList items={useCurrentSidebarCategory().items}/>
+## Try a Walkthrough
+1. [How to Deploy an Item Collection Contract](/docs/build/EVM/first-contract/deploy-with-astar-zkevm)
+2. [How to Deploy an In-game Currency Contract](https://docs.sequence.xyz/solutions/collectibles/contracts/deploy-ERC20-currency)
+3. [How to Add Collaborators to Your Contracts](https://docs.sequence.xyz/solutions/builder/contracts#add-contract-collaborators-to-audited-contracts)

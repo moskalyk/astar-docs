@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Indexer Installation
 
 :::warning[Introducing the Astar Studio - https://studio.astar.network]
@@ -51,39 +55,18 @@ import { SequenceIndexer } from '@0xsequence/indexer'
 // indexer hosts for the chain you'd like to query
 const indexer = new SequenceIndexer('https://astar-zkyoto-indexer.sequence.app', 'AQAAAAAAAF_JvPALhBthL7VGn6jV0YDqaFY')
 
-// see examples below for the kinds of queries you can make
-const tokenBalances = await indexer.getTokenBalances(...)
+// try any contract and account address you'd like :)
+const contractAddress = '0xbd35ef6d7e8b4143dfff8ba019276bbbb4c7591b'
+const accountAddress = '0xabc...'
+
+// query Sequence Indexer for all nft balances of the account on Polygon
+const nftBalances = await indexer.getTokenBalances({
+	contractAddress: contractAddress,
+	accountAddress: accountAddress,
+	includeMetadata: true
+})
+ 
+console.log('collection of items:', nftBalances)
 ```
 
 **NOTE:** if you're using `@0xsequence/indexer` from node.js, Sequence recommends using node v18.x or newer.
-
-<br />
-
-### Go Installation
-
-```bash [Terminal]
-go get -u github.com/0xsequence/go-sequence@latest
-```
-
-then in your app,
-
-```go [Go]
-import (
-	"github.com/0xsequence/go-sequence/indexer"
-)
-
-// see https://docs.sequence.xyz/solutions/technical-references/chain-support for list of
-// indexer hosts for the chain you'd like to query
-seqIndexer := indexer.NewIndexer("https://astar-zkyoto-indexer.sequence.app", "AQAAAAAAAF_JvPALhBthL7VGn6jV0YDqaFY")
-
-// see examples below for the kinds of queries you can make
-accountAddress := "ACCOUNT_ADDRESS"
-includeMetadata := true
-metadataOptions := indexer.MetadataOptions{
-	VerifiedOnly: true,
-}
-
-_, tokenBalances, err := seqIndexer.GetTokenBalances(context.Background(), &accountAddress, nil, nil, &includeMetadata, &metadataOptions, nil, nil)
-```
-
-<br />

@@ -1,5 +1,5 @@
 ---
-sidebar_label: Metadata Tips & Spam
+sidebar_position: 4
 ---
 
 # Metadata Tips & Notes on Spam
