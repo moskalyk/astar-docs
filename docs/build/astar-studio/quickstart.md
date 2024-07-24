@@ -40,8 +40,6 @@ Without a wallet, you will be given a few options to sign in. You can use any of
 
 After choosing how you would like to sign in, you will be presented with the terms of use. To read the `Terms of Use`, `Privacy Policy`, and `Master Services Agreement`, click on the respective links for each.
 
-![Astar Studio accept terms](img/quickstart/studio_accept_terms_signup_project.png)
-
 Once you have read each, click through to continue.
 
 You are now signed in to Studio!
@@ -82,7 +80,7 @@ Within the `settings` of the `API Access Keys` select the `dev` access key, whic
 
 ## 6. (Optional for Development) Create a Service Account
 
-In order to integrate some services from the Sequence stack, a Service Account has to be created to make updates or read from state - including [Collections API](./manage_collections.md) or [Webhooks](./querying-blockchain-data//examples/programmatic_webhooks.md) - a `Secret API Key` is required.
+In order to integrate some services from the Sequence stack, a Service Account has to be created to make updates or read from state - including [Collections API](./manage_collections.md) or [Webhooks](./querying-blockchain-data/no_code_webhooks.md) - a `Secret API Key` is required.
 
 One can navigate to the API Access Keys section by selecting the project, accessing the sidebar nav page of `Settings`, and selecting the `API Access Keys` card
 
