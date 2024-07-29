@@ -28,13 +28,13 @@ Example `ERC1155`: [Skyweaver](https://polygonscan.com/token/0x631998e91476da5b8
 
 Start by selecting your `project` in the top left and corner for what you want to create the collectible for, and head to the `contracts` section and select `+ Deploy new contract`
 
-![select project and new contract](img/deploy_with_astar_studio/temp/deploy_new_contract.png)
+![select project and new contract](img/deploy_with_astar_studio/deploy_new_contract.png)
 
 ## 2. Choose your collectible type
 
 Then make your choice of Web3 Game Item Collection (ERC1155) or NFT Collection (ERC721), for this example we'll walk you through a Web3 Game Item Collection (ERC1155)
 
-![select game item](img/deploy_with_astar_studio/temp/select_web3_game_item.png)
+![select game item](img/deploy_with_astar_studio/select_web3_game_item.png)
 
 :::warning
   The only difference in deployment between an `ERC1155` vs `ERC721` is that you
@@ -47,7 +47,7 @@ Complete the contract details by specifying a `Contract Name` and `Owner` for yo
 
 For your first contract deployment, best to select `astar-zkyoto` for the `Network`.
 
-![deploy game item](img/deploy_with_astar_studio/temp/deploy_game_item.png)
+![deploy game item](img/deploy_with_astar_studio/deploy_game_item.png)
 
 :::danger
 
@@ -61,7 +61,7 @@ While you can change the contract `name` later in the studio interface where it 
 
 Deploy your contract from the popup window and sign the message by selecting `Confirm`:
 
-![Deploy your contract by signing the message in the popup window from your Wallet](img/deploy_with_astar_studio/temp/sign_deploy_transaction.png)
+![Deploy your contract by signing the message in the popup window from your Wallet](img/deploy_with_astar_studio/sign_deploy_transaction.png)
 
 ## 5. Add a Minter Role to the contract
 
@@ -69,11 +69,11 @@ By default, the wallet address you put as the `Contract Owner` will have a `Mint
 
 If not, first start by selecting your contract you just deployed in the `contracts` section:
 
-![select contract](img/deploy_with_astar_studio/temp/select_deployed_contract.png)
+![select contract](img/deploy_with_astar_studio/select_deployed_contract.png)
 
 Next, head to the `Write Contract` section
 
-![write contract](img/deploy_with_astar_studio/temp/select_item_write_contract.png)
+![write contract](img/deploy_with_astar_studio/select_item_write_contract.png)
 
 In the `grantRole` section of the write contract tab navigation
 
@@ -88,7 +88,7 @@ Where the wallet address is the address that you would like to give permissions 
 
 For deploying and testing, you can obtain your own wallet address by selecting the top right avatar and selecting `Copy Address`. This can be useful for sending the collectible items manually to other people from your own wallet.
 
-![copy address](img/deploy_with_astar_studio/temp/copy_address_game_item.png)
+![copy address](img/deploy_with_astar_studio/copy_address_game_item.png)
 
 Complete by selecting `write` and signing the transaction in the popup window.
 
@@ -104,7 +104,7 @@ Navigate to the `mint` card in the `Write Contract` section and input the `to` b
 
 Complete these fields to mint.
 
-![mint tokens](img/deploy_with_astar_studio/temp/mint_game_item.png)
+![mint tokens](img/deploy_with_astar_studio/mint_game_item.png)
 
 ## 7. Confirm your minted collectible
 
@@ -112,4 +112,4 @@ And you're done!
 
 You can view the transactions submitted to the blockchain for your wallet address in the `Transactions` tab navigation
 
-![view token transactions](img/deploy_with_astar_studio/temp/transactions_game_items.png)
+![view token transactions](img/deploy_with_astar_studio/transactions_game_items.png)
