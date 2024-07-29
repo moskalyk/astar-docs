@@ -39,3 +39,7 @@ by toggling the filter in the top right corner.
 *Transaction requests* represents the total number of transactions sent by wallets associated with the project.
 
 ![Astar Studio analytics transaction requests](./img/analytics/studio_analytics_txn_requests.png)
+
+### Analytics Customization
+
+If you're looking to present real-time data in additional interfaces and want to access the system using a programmatic approach, you can view the [Sequence Analytics API](https://docs.sequence.xyz/api/analytics/overview) to perform customizations and build your applications.

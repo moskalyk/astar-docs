@@ -11,10 +11,10 @@ By using the infrastructure, you save money for not having to deploy your own st
 ## Give it a try
 Install `ethers` with `pnpm install ethers@5.7.2` or `yarn add ethers@5.7.2`
 
-Acquire a Astar Studio access key to authenticate your connection and append to the endpoint, where the chain handle is either `astar-zkevm` or `astar-zkyoto` for testnet.
+Obtain a Astar Studio access key to authenticate your connection and append to the endpoint, where the chain handle is either `astar-zkevm` or for testnet `astar-zkyoto`.
 
 :::info
-You can acquire a project access key [here](../astar-studio/quickstart.md#5-claim-an-api-access-key)
+You can obtain a project access key [here](../astar-studio/quickstart.md#5-claim-an-api-access-key)
 :::
 
 

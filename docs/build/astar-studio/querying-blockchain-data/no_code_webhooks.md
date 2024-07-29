@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Webhooks in Astar Studio
 
-Astar Studio equips game builders with an indexer that listens to events across the many blockchains that we offer by providing an https callback.
+Astar Studio equips game builders with an indexer that listens to events that occurs on either astar-zkevm or astar-zkyoto by providing an HTTPS callback.
 
 #### What data can I listen to for my game?
 - Mints from a contract
@@ -17,9 +17,9 @@ Astar Studio equips game builders with an indexer that listens to events across 
 
 The following steps guide you through creating your webhook
 
-1. [Select Project and go to Webhooks Section](./no_code_webhooks.md#select-project-and-go-to-webhooks-section)
-2. [Select Network and Add New Webhook](./no_code_webhooks.md#select-network-and-add-new-webhook)
-3. [Complete Webhook Details](./no_code_webhooks.md#complete-webhook-details)
+1. [Select Project and go to Webhooks Section](./no_code_webhooks.md#1-select-project-and-go-to-webhooks-section)
+2. [Select Network and Add New Webhook](./no_code_webhooks.md#2-select-network-and-add-new-webhook)
+3. [Complete Webhook Details](./no_code_webhooks.md#3-complete-webhook-details)
 
 ### 1. Select Project and go to Webhooks Section
 
@@ -33,7 +33,7 @@ In the dropdown beneath the webhooks tab, select the network you're looking to c
 ![indexer webhooks add new webhook](img/studio_indexer_webhooks_add_new_webhook.png)
  
 ### 3. Complete Webhook Details
-Complete the required details like webhook `URL` and `Contract Address(es)` and select `Add Webhook`
+Complete the required details like webhook `URL`, `Event(s)` (e.g. for an ERC20 transfer, use Transfer(address indexed,address indexed,uint256)), `Contract Address(es)` and select `Add Webhook`
 
 :::info
     If you require a webhook endpoint you can use [webhook.site](https://webhook.site/)
@@ -52,7 +52,7 @@ And you're done!
 
 The following steps guide you through creating your updating or removing your webhook
 
-1. [Select Project and go to Webhooks Section](./no_code_webhooks.md#1-select-project-and-go-to-webhooks-section)
+1. [Select Project and go to Webhooks Section](./no_code_webhooks.md#1-select-project-and-go-to-webhooks-section-1)
 2. [Select the Gear to Update or Remove your Webhook](./no_code_webhooks.md#2-select-the-gear-to-update-or-remove-your-webhook)
 3. [Update or Remove Webhook](./no_code_webhooks.md#3-update-or-remove-webhook)
 

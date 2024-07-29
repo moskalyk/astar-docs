@@ -22,6 +22,6 @@ Directory (https://github.com/0xsequence/token-directory). By calling the Indexe
 be omitted from the results. Sequence recommend using this option all the time, but, the downside is
 if your project's contracts are unverified, then they will also be omitted from the results. To help
 with this, your options are to get verified with one of the sources above, or in your RPC calls to pass
-`"metadataOptions": { "verifiedOnly": true, "includeContracts": ["0x631998e91476DA5B870D741192fc5Cbc55F5a52E", "0x8bb759bb68995343ff1e9d57ac85ff5c5fb79334"] }`
+`"metadataOptions": { "verifiedOnly": true, "includeContracts": ["0x21a0055a7bc2c6c3000822aa06f81de88306f453"] }`
 as an example.
 

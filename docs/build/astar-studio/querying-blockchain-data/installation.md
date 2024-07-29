@@ -16,7 +16,7 @@ it, please also see the [Indexer Overview](./index.md).
 
 ## Installation
 
-The Sequence Indexer is built as a HTTP API with RPC endpoints that you may call directly
+The Sequence Indexer is built as an HTTP API with RPC endpoints that you may call directly
 from your Webapp, Game or server backend. Below you'll find information on the RPC endpoint
 schema with sample curl commands, along with examples in both Javascript/Typescript and Go.
 
@@ -53,11 +53,11 @@ This code requires an API Access Key from [Astar Studio](https://studio.astar.ne
 import { SequenceIndexer } from '@0xsequence/indexer'
 
 // indexer hosts for the chain you'd like to query
-const indexer = new SequenceIndexer('https://astar-zkyoto-indexer.sequence.app', 'AQAAAAAAAF_JvPALhBthL7VGn6jV0YDqaFY')
+const indexer = new SequenceIndexer('https://astar-zkyoto-indexer.sequence.app', 'AQAAAAAAAI6BLZy0K5QmWGnhrWb_qtDQaGY')
 
 // try any contract and account address you'd like :)
-const contractAddress = '0xbd35ef6d7e8b4143dfff8ba019276bbbb4c7591b'
-const accountAddress = '0xabc...'
+const contractAddress = '0x21a0055a7bc2c6c3000822aa06f81de88306f453'
+const accountAddress = '0xe6eB28398CCBe46aA505b62b96822c2Ce8DAABf4'
 
 // query Sequence Indexer for all nft balances of the account on Polygon
 const nftBalances = await indexer.getTokenBalances({

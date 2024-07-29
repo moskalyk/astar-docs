@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Indexer
 
-Astar Studio equips game builders with an indexer that collects data from the following networks: Astar zkEVM and Astar zKyoto.
+Astar Studio equips game builders with an indexer that collects data from the following networks: Astar zkEVM and Astar zKyoto (a testnet).
 
 ## Features
 - Super-fast API to query all token balances, history, metadata and NFTs with multi-chain support
@@ -17,7 +17,7 @@ Astar Studio equips game builders with an indexer that collects data from the fo
 
 ## What data can I query for my game?
 
-Studio takes the stress out of gathering on-chain data for your game. Simply select the data you want from the indexer, and it generates the necessary code in snippets.
+Within Astar Studio, Sequence Indexer takes the stress out of gathering on-chain data for your game. Simply select the data you want from the indexer, and it generates the necessary code in snippets.
 
 Sequence Indexer Documentation & Examples
 - `getTokenBalances`: [Fetch lists of ERC20, ERC721, and ERC1155 Tokens](https://docs.sequence.xyz/api/indexer/examples/fetch-tokens/)
@@ -28,4 +28,4 @@ Sequence Indexer Documentation & Examples
 
 ## How much code will I have to write to query?
 
-Powered by the Sequence Indexer, the Astar Studio offers several features that level-up your on-chain data capabilities without writing a line of code by providing helpful code snippets of the most common use cases. It boasts a user-friendly interface that you can use to fetch important data, like the tokens owned by a specific wallet under a specific contract, for instance.
+Powered by the Sequence Indexer, Astar Studio offers several features that level-up your on-chain data capabilities without writing a line of code by providing helpful code snippets of the most common use cases. It boasts a user-friendly interface that you can use to fetch important data, like the tokens owned by a specific wallet under a specific contract, for instance.
